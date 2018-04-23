@@ -76,7 +76,7 @@ public class GeneticAlgorithmTest {
     }
 
     @Test
-    public static void main(String Args[]) throws IOException {
+    public  void main() throws IOException {
         GeneticAlgorithmTest gt = new GeneticAlgorithmTest();
         gt.evaluateTest();
         gt.countRateTest();

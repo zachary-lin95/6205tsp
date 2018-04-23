@@ -597,7 +597,7 @@ public class GeneticAlgorithm {
         return this.bestTour;
     }
 
-    public static void main(String[] args) throws IOException {
+    public  void main(String[] args) throws IOException {
         GeneticAlgorithm ga = new GeneticAlgorithm(30, 20, 100, 0.8f, 0.05f);
         GeneticAlgorithm expectedga = new GeneticAlgorithm(30,20,10000,0.8f,0.05f);
         expectedga.init("citys data.txt");
